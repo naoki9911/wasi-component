@@ -1,0 +1,14 @@
+[package]
+name = "host"
+version = "0.1.0"
+rust-version = "1.71.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.72"
+async-trait = "0.1.71"
+futures = "0.3.28"
+lazy_static = "1.4.0"
+tokio = { version = "1.29.1", features = ["full"] }
+wasmtime = { version = "10.0.1", features = ["component-model"]}
+wasmtime-wasi = "10.0.1"
